@@ -1,0 +1,1017 @@
+CRITICAL - 2023-12-09 19:00:07 --> Undefined variable $db
+in APPPATH\Views\admin\account.php on line 53.
+ 1 APPPATH\Views\admin\account.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Views\\admin\\account.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\account.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/account', [], true)
+ 5 APPPATH\Controllers\Admin_account.php(14): view('admin/account', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_account->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_account))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:00:07 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:00:13 --> Undefined variable $db
+in APPPATH\Views\admin\account.php on line 53.
+ 1 APPPATH\Views\admin\account.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Views\\admin\\account.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\account.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/account', [], true)
+ 5 APPPATH\Controllers\Admin_account.php(14): view('admin/account', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_account->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_account))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:00:13 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:11:28 --> Undefined variable $db
+in APPPATH\Views\site\about.php on line 52.
+ 1 APPPATH\Views\site\about.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Views\\site\\about.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\site\\about.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('site/about', [], true)
+ 5 APPPATH\Controllers\Root.php(28): view('site/about', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->showabout()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:11:28 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:37:40 --> Undefined array key "harga"
+in APPPATH\Controllers\Operator_package.php on line 54.
+ 1 APPPATH\Controllers\Operator_package.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'APPPATH\\Controllers\\Operator_package.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:37:40 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:39:39 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Operator_package.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove('a:6:{s:9:"thumbnail";s:35:"1702172282_7344d9d07f6d97095f91.jpg";s:5:"paket";s:77:"Dewi Besani Tea-Story Journey: Eksplorasi Sejarah dan  Budaya Teh Desa Besani";s:9:"deskripsi";s:292:"Selamat datang dalam perjalanan cerita teh yang mendalam di "Dewi Besani Tea-Story __Journey." Paket ini mengajak Anda untuk menjelajahi keunikan dan keindahan Desa Besani, __yang terkenal dengan kebun tehnya yang subur, serta untuk mendalami sejarah dan budaya teh __yang kaya di daerah ini.";s:6:"durasi";s:6:"1 hari";s:9:"fasilitas";s:196:"Pemandu wisata lokal__Teh sambutan__Makan siang khas Desa Besani__Camilan dan teh selama acara__Alat dan bahan untuk workshop__Tiket masuk Museum Teh Besani__Souvenir khas Desa Besani__Dokumentasi";s:10:"konfirmasi";s:1:"1";}', [...], 'a:0:{}', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:39:39 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:40:23 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Operator_package.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove('a:6:{s:9:"thumbnail";s:35:"1702172282_7344d9d07f6d97095f91.jpg";s:5:"paket";s:77:"Dewi Besani Tea-Story Journey: Eksplorasi Sejarah dan  Budaya Teh Desa Besani";s:9:"deskripsi";s:292:"Selamat datang dalam perjalanan cerita teh yang mendalam di "Dewi Besani Tea-Story __Journey." Paket ini mengajak Anda untuk menjelajahi keunikan dan keindahan Desa Besani, __yang terkenal dengan kebun tehnya yang subur, serta untuk mendalami sejarah dan budaya teh __yang kaya di daerah ini.";s:6:"durasi";s:6:"1 hari";s:9:"fasilitas";s:196:"Pemandu wisata lokal__Teh sambutan__Makan siang khas Desa Besani__Camilan dan teh selama acara__Alat dan bahan untuk workshop__Tiket masuk Museum Teh Besani__Souvenir khas Desa Besani__Dokumentasi";s:10:"konfirmasi";s:1:"1";}', [...], 'a:0:{}', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:40:23 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:40:28 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Operator_package.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove('a:6:{s:9:"thumbnail";s:35:"1702172282_7344d9d07f6d97095f91.jpg";s:5:"paket";s:77:"Dewi Besani Tea-Story Journey: Eksplorasi Sejarah dan  Budaya Teh Desa Besani";s:9:"deskripsi";s:292:"Selamat datang dalam perjalanan cerita teh yang mendalam di "Dewi Besani Tea-Story __Journey." Paket ini mengajak Anda untuk menjelajahi keunikan dan keindahan Desa Besani, __yang terkenal dengan kebun tehnya yang subur, serta untuk mendalami sejarah dan budaya teh __yang kaya di daerah ini.";s:6:"durasi";s:6:"1 hari";s:9:"fasilitas";s:196:"Pemandu wisata lokal__Teh sambutan__Makan siang khas Desa Besani__Camilan dan teh selama acara__Alat dan bahan untuk workshop__Tiket masuk Museum Teh Besani__Souvenir khas Desa Besani__Dokumentasi";s:10:"konfirmasi";s:1:"1";}', [...], 'a:0:{}', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:40:28 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:40:31 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Operator_package.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove('a:6:{s:9:"thumbnail";s:35:"1702172282_7344d9d07f6d97095f91.jpg";s:5:"paket";s:77:"Dewi Besani Tea-Story Journey: Eksplorasi Sejarah dan  Budaya Teh Desa Besani";s:9:"deskripsi";s:292:"Selamat datang dalam perjalanan cerita teh yang mendalam di "Dewi Besani Tea-Story __Journey." Paket ini mengajak Anda untuk menjelajahi keunikan dan keindahan Desa Besani, __yang terkenal dengan kebun tehnya yang subur, serta untuk mendalami sejarah dan budaya teh __yang kaya di daerah ini.";s:6:"durasi";s:6:"1 hari";s:9:"fasilitas";s:196:"Pemandu wisata lokal__Teh sambutan__Makan siang khas Desa Besani__Camilan dan teh selama acara__Alat dan bahan untuk workshop__Tiket masuk Museum Teh Besani__Souvenir khas Desa Besani__Dokumentasi";s:10:"konfirmasi";s:1:"1";}', [...], 'a:0:{}', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:40:31 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:41:29 --> Array to string conversion
+in APPPATH\Controllers\Operator_package.php on line 81.
+ 1 APPPATH\Controllers\Operator_package.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Operator_package.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove([...], [...], 'a:0:{}', '3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:41:29 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:42:00 --> Array to string conversion
+in APPPATH\Controllers\Operator_package.php on line 81.
+ 1 APPPATH\Controllers\Operator_package.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Operator_package.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove('a:6:{s:9:"thumbnail";s:35:"1702172282_7344d9d07f6d97095f91.jpg";s:5:"paket";s:77:"Dewi Besani Tea-Story Journey: Eksplorasi Sejarah dan  Budaya Teh Desa Besani";s:9:"deskripsi";s:292:"Selamat datang dalam perjalanan cerita teh yang mendalam di "Dewi Besani Tea-Story __Journey." Paket ini mengajak Anda untuk menjelajahi keunikan dan keindahan Desa Besani, __yang terkenal dengan kebun tehnya yang subur, serta untuk mendalami sejarah dan budaya teh __yang kaya di daerah ini.";s:6:"durasi";s:6:"1 hari";s:9:"fasilitas";s:196:"Pemandu wisata lokal__Teh sambutan__Makan siang khas Desa Besani__Camilan dan teh selama acara__Alat dan bahan untuk workshop__Tiket masuk Museum Teh Besani__Souvenir khas Desa Besani__Dokumentasi";s:10:"konfirmasi";s:1:"1";}', [...], 'a:0:{}', '3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:42:00 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:42:08 --> Array to string conversion
+in APPPATH\Controllers\Operator_package.php on line 81.
+ 1 APPPATH\Controllers\Operator_package.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Operator_package.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove([...], [...], 'a:0:{}', '3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:42:08 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:42:20 --> Array to string conversion
+in APPPATH\Controllers\Operator_package.php on line 81.
+ 1 APPPATH\Controllers\Operator_package.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Operator_package.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove('a:6:{s:9:"thumbnail";s:35:"1702172282_7344d9d07f6d97095f91.jpg";s:5:"paket";s:77:"Dewi Besani Tea-Story Journey: Eksplorasi Sejarah dan  Budaya Teh Desa Besani";s:9:"deskripsi";s:292:"Selamat datang dalam perjalanan cerita teh yang mendalam di "Dewi Besani Tea-Story __Journey." Paket ini mengajak Anda untuk menjelajahi keunikan dan keindahan Desa Besani, __yang terkenal dengan kebun tehnya yang subur, serta untuk mendalami sejarah dan budaya teh __yang kaya di daerah ini.";s:6:"durasi";s:6:"1 hari";s:9:"fasilitas";s:196:"Pemandu wisata lokal__Teh sambutan__Makan siang khas Desa Besani__Camilan dan teh selama acara__Alat dan bahan untuk workshop__Tiket masuk Museum Teh Besani__Souvenir khas Desa Besani__Dokumentasi";s:10:"konfirmasi";s:1:"1";}', [...], [], '3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:42:20 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:42:28 --> Array to string conversion
+in APPPATH\Controllers\Operator_package.php on line 81.
+ 1 APPPATH\Controllers\Operator_package.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Operator_package.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove([...], [...], 'a:0:{}', '3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:42:28 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:43:21 --> Array to string conversion
+in APPPATH\Controllers\Operator_package.php on line 81.
+ 1 APPPATH\Controllers\Operator_package.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Operator_package.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove([...], [...], 'a:0:{}', '3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:43:21 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:45:34 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Operator_package.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove('a:6:{s:9:"thumbnail";s:35:"1702172282_7344d9d07f6d97095f91.jpg";s:5:"paket";s:77:"Dewi Besani Tea-Story Journey: Eksplorasi Sejarah dan  Budaya Teh Desa Besani";s:9:"deskripsi";s:292:"Selamat datang dalam perjalanan cerita teh yang mendalam di "Dewi Besani Tea-Story __Journey." Paket ini mengajak Anda untuk menjelajahi keunikan dan keindahan Desa Besani, __yang terkenal dengan kebun tehnya yang subur, serta untuk mendalami sejarah dan budaya teh __yang kaya di daerah ini.";s:6:"durasi";s:6:"1 hari";s:9:"fasilitas";s:196:"Pemandu wisata lokal__Teh sambutan__Makan siang khas Desa Besani__Camilan dan teh selama acara__Alat dan bahan untuk workshop__Tiket masuk Museum Teh Besani__Souvenir khas Desa Besani__Dokumentasi";s:10:"konfirmasi";s:1:"1";}', [...], 'a:0:{}', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:45:34 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:46:03 --> array_splice(): Argument #1 ($array) must be of type array, bool given
+in APPPATH\Controllers\Operator_package.php on line 79.
+ 1 APPPATH\Controllers\Operator_package.php(79): array_splice(false, '3', 1)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove('YTo2OntzOjk6InRodW1ibmFpbCI7czozNToiMTcwMjE3MjI4Ml83MzQ0ZDlkMDdmNmQ5NzA5NWY5MS5qcGciO3M6NToicGFrZXQiO3M6Nzc6IkRld2kgQmVzYW5pIFRlYS1TdG9yeSBKb3VybmV5OiBFa3NwbG9yYXNpIFNlamFyYWggZGFuICBCdWRheWEgVGVoIERlc2EgQmVzYW5pIjtzOjk6ImRlc2tyaXBzaSI7czoyOTI6IlNlbGFtYXQgZGF0YW5nIGRhbGFtIHBlcmphbGFuYW4gY2VyaXRhIHRlaCB5YW5nIG1lbmRhbGFtIGRpICJEZXdpIEJlc2FuaSBUZWEtU3RvcnkgDQpKb3VybmV5LiIgUGFrZXQgaW5pIG1lbmdhamFrIEFuZGEgdW50dWsgbWVuamVsYWphaGkga2V1bmlrYW4gZGFuIGtlaW5kYWhhbiBEZXNhIEJlc2FuaSwgDQp5YW5nIHRlcmtlbmFsIGRlbmdhbiBrZWJ1biB0ZWhueWEgeWFuZyBzdWJ1ciwgc2VydGEgdW50dWsgbWVuZGFsYW1pIHNlamFyYWggZGFuIGJ1ZGF5YSB0ZWggDQp5YW5nIGtheWEgZGkgZGFlcmFoIGluaS4iO3M6NjoiZHVyYXNpIjtzOjY6IjEgaGFyaSI7czo5OiJmYXNpbGl0YXMiO3M6MTk2OiJQZW1hbmR1IHdpc2F0YSBsb2thbA0KVGVoIHNhbWJ1dGFuDQpNYWthbiBzaWFuZyBraGFzIERlc2EgQmVzYW5pDQpDYW1pbGFuIGRhbiB0ZWggc2VsYW1hIGFjYXJhDQpBbGF0IGRhbiBiYWhhbiB1bnR1ayB3b3Jrc2hvcA0KVGlrZXQgbWFzdWsgTXVzZXVtIFRlaCBCZXNhbmkNClNvdXZlbmlyIGtoYXMgRGVzYSBCZXNhbmkNCkRva3VtZW50YXNpIjtzOjEwOiJrb25maXJtYXNpIjtzOjE6IjEiO30=', false, 'YTowOnt9', '3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:46:03 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:46:19 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Operator_package.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove('YTo2OntzOjk6InRodW1ibmFpbCI7czozNToiMTcwMjE3MjI4Ml83MzQ0ZDlkMDdmNmQ5NzA5NWY5MS5qcGciO3M6NToicGFrZXQiO3M6Nzc6IkRld2kgQmVzYW5pIFRlYS1TdG9yeSBKb3VybmV5OiBFa3NwbG9yYXNpIFNlamFyYWggZGFuICBCdWRheWEgVGVoIERlc2EgQmVzYW5pIjtzOjk6ImRlc2tyaXBzaSI7czoyOTI6IlNlbGFtYXQgZGF0YW5nIGRhbGFtIHBlcmphbGFuYW4gY2VyaXRhIHRlaCB5YW5nIG1lbmRhbGFtIGRpICJEZXdpIEJlc2FuaSBUZWEtU3RvcnkgDQpKb3VybmV5LiIgUGFrZXQgaW5pIG1lbmdhamFrIEFuZGEgdW50dWsgbWVuamVsYWphaGkga2V1bmlrYW4gZGFuIGtlaW5kYWhhbiBEZXNhIEJlc2FuaSwgDQp5YW5nIHRlcmtlbmFsIGRlbmdhbiBrZWJ1biB0ZWhueWEgeWFuZyBzdWJ1ciwgc2VydGEgdW50dWsgbWVuZGFsYW1pIHNlamFyYWggZGFuIGJ1ZGF5YSB0ZWggDQp5YW5nIGtheWEgZGkgZGFlcmFoIGluaS4iO3M6NjoiZHVyYXNpIjtzOjY6IjEgaGFyaSI7czo5OiJmYXNpbGl0YXMiO3M6MTk2OiJQZW1hbmR1IHdpc2F0YSBsb2thbA0KVGVoIHNhbWJ1dGFuDQpNYWthbiBzaWFuZyBraGFzIERlc2EgQmVzYW5pDQpDYW1pbGFuIGRhbiB0ZWggc2VsYW1hIGFjYXJhDQpBbGF0IGRhbiBiYWhhbiB1bnR1ayB3b3Jrc2hvcA0KVGlrZXQgbWFzdWsgTXVzZXVtIFRlaCBCZXNhbmkNClNvdXZlbmlyIGtoYXMgRGVzYSBCZXNhbmkNCkRva3VtZW50YXNpIjtzOjEwOiJrb25maXJtYXNpIjtzOjE6IjEiO30=', [...], 'YTowOnt9', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:46:19 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:46:20 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Operator_package.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove('YTo2OntzOjk6InRodW1ibmFpbCI7czozNToiMTcwMjE3MjI4Ml83MzQ0ZDlkMDdmNmQ5NzA5NWY5MS5qcGciO3M6NToicGFrZXQiO3M6Nzc6IkRld2kgQmVzYW5pIFRlYS1TdG9yeSBKb3VybmV5OiBFa3NwbG9yYXNpIFNlamFyYWggZGFuICBCdWRheWEgVGVoIERlc2EgQmVzYW5pIjtzOjk6ImRlc2tyaXBzaSI7czoyOTI6IlNlbGFtYXQgZGF0YW5nIGRhbGFtIHBlcmphbGFuYW4gY2VyaXRhIHRlaCB5YW5nIG1lbmRhbGFtIGRpICJEZXdpIEJlc2FuaSBUZWEtU3RvcnkgDQpKb3VybmV5LiIgUGFrZXQgaW5pIG1lbmdhamFrIEFuZGEgdW50dWsgbWVuamVsYWphaGkga2V1bmlrYW4gZGFuIGtlaW5kYWhhbiBEZXNhIEJlc2FuaSwgDQp5YW5nIHRlcmtlbmFsIGRlbmdhbiBrZWJ1biB0ZWhueWEgeWFuZyBzdWJ1ciwgc2VydGEgdW50dWsgbWVuZGFsYW1pIHNlamFyYWggZGFuIGJ1ZGF5YSB0ZWggDQp5YW5nIGtheWEgZGkgZGFlcmFoIGluaS4iO3M6NjoiZHVyYXNpIjtzOjY6IjEgaGFyaSI7czo5OiJmYXNpbGl0YXMiO3M6MTk2OiJQZW1hbmR1IHdpc2F0YSBsb2thbA0KVGVoIHNhbWJ1dGFuDQpNYWthbiBzaWFuZyBraGFzIERlc2EgQmVzYW5pDQpDYW1pbGFuIGRhbiB0ZWggc2VsYW1hIGFjYXJhDQpBbGF0IGRhbiBiYWhhbiB1bnR1ayB3b3Jrc2hvcA0KVGlrZXQgbWFzdWsgTXVzZXVtIFRlaCBCZXNhbmkNClNvdXZlbmlyIGtoYXMgRGVzYSBCZXNhbmkNCkRva3VtZW50YXNpIjtzOjEwOiJrb25maXJtYXNpIjtzOjE6IjEiO30=', [...], 'YTowOnt9', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:46:20 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:46:20 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Operator_package.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove('YTo2OntzOjk6InRodW1ibmFpbCI7czozNToiMTcwMjE3MjI4Ml83MzQ0ZDlkMDdmNmQ5NzA5NWY5MS5qcGciO3M6NToicGFrZXQiO3M6Nzc6IkRld2kgQmVzYW5pIFRlYS1TdG9yeSBKb3VybmV5OiBFa3NwbG9yYXNpIFNlamFyYWggZGFuICBCdWRheWEgVGVoIERlc2EgQmVzYW5pIjtzOjk6ImRlc2tyaXBzaSI7czoyOTI6IlNlbGFtYXQgZGF0YW5nIGRhbGFtIHBlcmphbGFuYW4gY2VyaXRhIHRlaCB5YW5nIG1lbmRhbGFtIGRpICJEZXdpIEJlc2FuaSBUZWEtU3RvcnkgDQpKb3VybmV5LiIgUGFrZXQgaW5pIG1lbmdhamFrIEFuZGEgdW50dWsgbWVuamVsYWphaGkga2V1bmlrYW4gZGFuIGtlaW5kYWhhbiBEZXNhIEJlc2FuaSwgDQp5YW5nIHRlcmtlbmFsIGRlbmdhbiBrZWJ1biB0ZWhueWEgeWFuZyBzdWJ1ciwgc2VydGEgdW50dWsgbWVuZGFsYW1pIHNlamFyYWggZGFuIGJ1ZGF5YSB0ZWggDQp5YW5nIGtheWEgZGkgZGFlcmFoIGluaS4iO3M6NjoiZHVyYXNpIjtzOjY6IjEgaGFyaSI7czo5OiJmYXNpbGl0YXMiO3M6MTk2OiJQZW1hbmR1IHdpc2F0YSBsb2thbA0KVGVoIHNhbWJ1dGFuDQpNYWthbiBzaWFuZyBraGFzIERlc2EgQmVzYW5pDQpDYW1pbGFuIGRhbiB0ZWggc2VsYW1hIGFjYXJhDQpBbGF0IGRhbiBiYWhhbiB1bnR1ayB3b3Jrc2hvcA0KVGlrZXQgbWFzdWsgTXVzZXVtIFRlaCBCZXNhbmkNClNvdXZlbmlyIGtoYXMgRGVzYSBCZXNhbmkNCkRva3VtZW50YXNpIjtzOjEwOiJrb25maXJtYXNpIjtzOjE6IjEiO30=', [...], 'YTowOnt9', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:46:20 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:46:21 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Operator_package.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove('YTo2OntzOjk6InRodW1ibmFpbCI7czozNToiMTcwMjE3MjI4Ml83MzQ0ZDlkMDdmNmQ5NzA5NWY5MS5qcGciO3M6NToicGFrZXQiO3M6Nzc6IkRld2kgQmVzYW5pIFRlYS1TdG9yeSBKb3VybmV5OiBFa3NwbG9yYXNpIFNlamFyYWggZGFuICBCdWRheWEgVGVoIERlc2EgQmVzYW5pIjtzOjk6ImRlc2tyaXBzaSI7czoyOTI6IlNlbGFtYXQgZGF0YW5nIGRhbGFtIHBlcmphbGFuYW4gY2VyaXRhIHRlaCB5YW5nIG1lbmRhbGFtIGRpICJEZXdpIEJlc2FuaSBUZWEtU3RvcnkgDQpKb3VybmV5LiIgUGFrZXQgaW5pIG1lbmdhamFrIEFuZGEgdW50dWsgbWVuamVsYWphaGkga2V1bmlrYW4gZGFuIGtlaW5kYWhhbiBEZXNhIEJlc2FuaSwgDQp5YW5nIHRlcmtlbmFsIGRlbmdhbiBrZWJ1biB0ZWhueWEgeWFuZyBzdWJ1ciwgc2VydGEgdW50dWsgbWVuZGFsYW1pIHNlamFyYWggZGFuIGJ1ZGF5YSB0ZWggDQp5YW5nIGtheWEgZGkgZGFlcmFoIGluaS4iO3M6NjoiZHVyYXNpIjtzOjY6IjEgaGFyaSI7czo5OiJmYXNpbGl0YXMiO3M6MTk2OiJQZW1hbmR1IHdpc2F0YSBsb2thbA0KVGVoIHNhbWJ1dGFuDQpNYWthbiBzaWFuZyBraGFzIERlc2EgQmVzYW5pDQpDYW1pbGFuIGRhbiB0ZWggc2VsYW1hIGFjYXJhDQpBbGF0IGRhbiBiYWhhbiB1bnR1ayB3b3Jrc2hvcA0KVGlrZXQgbWFzdWsgTXVzZXVtIFRlaCBCZXNhbmkNClNvdXZlbmlyIGtoYXMgRGVzYSBCZXNhbmkNCkRva3VtZW50YXNpIjtzOjEwOiJrb25maXJtYXNpIjtzOjE6IjEiO30=', [...], 'YTowOnt9', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:46:21 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:46:38 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Operator_package.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove('YTo2OntzOjk6InRodW1ibmFpbCI7czozNToiMTcwMjE3MjI4Ml83MzQ0ZDlkMDdmNmQ5NzA5NWY5MS5qcGciO3M6NToicGFrZXQiO3M6Nzc6IkRld2kgQmVzYW5pIFRlYS1TdG9yeSBKb3VybmV5OiBFa3NwbG9yYXNpIFNlamFyYWggZGFuICBCdWRheWEgVGVoIERlc2EgQmVzYW5pIjtzOjk6ImRlc2tyaXBzaSI7czoyOTI6IlNlbGFtYXQgZGF0YW5nIGRhbGFtIHBlcmphbGFuYW4gY2VyaXRhIHRlaCB5YW5nIG1lbmRhbGFtIGRpICJEZXdpIEJlc2FuaSBUZWEtU3RvcnkgDQpKb3VybmV5LiIgUGFrZXQgaW5pIG1lbmdhamFrIEFuZGEgdW50dWsgbWVuamVsYWphaGkga2V1bmlrYW4gZGFuIGtlaW5kYWhhbiBEZXNhIEJlc2FuaSwgDQp5YW5nIHRlcmtlbmFsIGRlbmdhbiBrZWJ1biB0ZWhueWEgeWFuZyBzdWJ1ciwgc2VydGEgdW50dWsgbWVuZGFsYW1pIHNlamFyYWggZGFuIGJ1ZGF5YSB0ZWggDQp5YW5nIGtheWEgZGkgZGFlcmFoIGluaS4iO3M6NjoiZHVyYXNpIjtzOjY6IjEgaGFyaSI7czo5OiJmYXNpbGl0YXMiO3M6MTk2OiJQZW1hbmR1IHdpc2F0YSBsb2thbA0KVGVoIHNhbWJ1dGFuDQpNYWthbiBzaWFuZyBraGFzIERlc2EgQmVzYW5pDQpDYW1pbGFuIGRhbiB0ZWggc2VsYW1hIGFjYXJhDQpBbGF0IGRhbiBiYWhhbiB1bnR1ayB3b3Jrc2hvcA0KVGlrZXQgbWFzdWsgTXVzZXVtIFRlaCBCZXNhbmkNClNvdXZlbmlyIGtoYXMgRGVzYSBCZXNhbmkNCkRva3VtZW50YXNpIjtzOjEwOiJrb25maXJtYXNpIjtzOjE6IjEiO30=', [...], 'YTowOnt9', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:46:38 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:47:56 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Operator_package.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove('a:6:{s:9:"thumbnail";s:35:"1702172282_7344d9d07f6d97095f91.jpg";s:5:"paket";s:77:"Dewi Besani Tea-Story Journey: Eksplorasi Sejarah dan  Budaya Teh Desa Besani";s:9:"deskripsi";s:292:"Selamat datang dalam perjalanan cerita teh yang mendalam di "Dewi Besani Tea-Story __Journey." Paket ini mengajak Anda untuk menjelajahi keunikan dan keindahan Desa Besani, __yang terkenal dengan kebun tehnya yang subur, serta untuk mendalami sejarah dan budaya teh __yang kaya di daerah ini.";s:6:"durasi";s:6:"1 hari";s:9:"fasilitas";s:196:"Pemandu wisata lokal__Teh sambutan__Makan siang khas Desa Besani__Camilan dan teh selama acara__Alat dan bahan untuk workshop__Tiket masuk Museum Teh Besani__Souvenir khas Desa Besani__Dokumentasi";s:10:"konfirmasi";s:1:"1";}', [...], 'a:0:{}', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:47:56 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:48:40 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Operator_package.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove('a:6:{s:9:"thumbnail";s:35:"1702172282_7344d9d07f6d97095f91.jpg";s:5:"paket";s:77:"Dewi Besani Tea-Story Journey: Eksplorasi Sejarah dan  Budaya Teh Desa Besani";s:9:"deskripsi";s:292:"Selamat datang dalam perjalanan cerita teh yang mendalam di "Dewi Besani Tea-Story __Journey." Paket ini mengajak Anda untuk menjelajahi keunikan dan keindahan Desa Besani, __yang terkenal dengan kebun tehnya yang subur, serta untuk mendalami sejarah dan budaya teh __yang kaya di daerah ini.";s:6:"durasi";s:6:"1 hari";s:9:"fasilitas";s:196:"Pemandu wisata lokal__Teh sambutan__Makan siang khas Desa Besani__Camilan dan teh selama acara__Alat dan bahan untuk workshop__Tiket masuk Museum Teh Besani__Souvenir khas Desa Besani__Dokumentasi";s:10:"konfirmasi";s:1:"1";}', [...], 'a:0:{}', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:48:40 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:49:45 --> Array to string conversion
+in APPPATH\Controllers\Operator_package.php on line 84.
+ 1 APPPATH\Controllers\Operator_package.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Operator_package.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove('a:6:{s:9:"thumbnail";s:35:"1702172282_7344d9d07f6d97095f91.jpg";s:5:"paket";s:77:"Dewi Besani Tea-Story Journey: Eksplorasi Sejarah dan  Budaya Teh Desa Besani";s:9:"deskripsi";s:292:"Selamat datang dalam perjalanan cerita teh yang mendalam di "Dewi Besani Tea-Story __Journey." Paket ini mengajak Anda untuk menjelajahi keunikan dan keindahan Desa Besani, __yang terkenal dengan kebun tehnya yang subur, serta untuk mendalami sejarah dan budaya teh __yang kaya di daerah ini.";s:6:"durasi";s:6:"1 hari";s:9:"fasilitas";s:196:"Pemandu wisata lokal__Teh sambutan__Makan siang khas Desa Besani__Camilan dan teh selama acara__Alat dan bahan untuk workshop__Tiket masuk Museum Teh Besani__Souvenir khas Desa Besani__Dokumentasi";s:10:"konfirmasi";s:1:"1";}', [...], 'a:0:{}', '3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:49:45 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:50:40 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Operator_package.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->remove('a:6:{s:9:"thumbnail";s:35:"1702172282_7344d9d07f6d97095f91.jpg";s:5:"paket";s:77:"Dewi Besani Tea-Story Journey: Eksplorasi Sejarah dan  Budaya Teh Desa Besani";s:9:"deskripsi";s:292:"Selamat datang dalam perjalanan cerita teh yang mendalam di "Dewi Besani Tea-Story __Journey." Paket ini mengajak Anda untuk menjelajahi keunikan dan keindahan Desa Besani, __yang terkenal dengan kebun tehnya yang subur, serta untuk mendalami sejarah dan budaya teh __yang kaya di daerah ini.";s:6:"durasi";s:6:"1 hari";s:9:"fasilitas";s:196:"Pemandu wisata lokal__Teh sambutan__Makan siang khas Desa Besani__Camilan dan teh selama acara__Alat dan bahan untuk workshop__Tiket masuk Museum Teh Besani__Souvenir khas Desa Besani__Dokumentasi";s:10:"konfirmasi";s:1:"1";}', [...], 'a:0:{}', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:50:40 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:58:03 --> Undefined variable $jenis
+in APPPATH\Controllers\Operator_package.php on line 66.
+ 1 APPPATH\Controllers\Operator_package.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jenis', 'APPPATH\\Controllers\\Operator_package.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->addcost()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:58:03 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:58:53 --> Undefined variable $jenis
+in APPPATH\Controllers\Operator_package.php on line 66.
+ 1 APPPATH\Controllers\Operator_package.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jenis', 'APPPATH\\Controllers\\Operator_package.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->addcost()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:58:53 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:59:18 --> array_push(): Argument #1 ($array) must be of type array, bool given
+in APPPATH\Controllers\Operator_package.php on line 70.
+ 1 APPPATH\Controllers\Operator_package.php(70): array_push(false, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->addcost()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:59:18 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:59:35 --> array_push(): Argument #1 ($array) must be of type array, bool given
+in APPPATH\Controllers\Operator_package.php on line 70.
+ 1 APPPATH\Controllers\Operator_package.php(70): array_push(false, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->addcost()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:59:35 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 19:59:51 --> array_push(): Argument #1 ($array) must be of type array, bool given
+in APPPATH\Controllers\Operator_package.php on line 70.
+ 1 APPPATH\Controllers\Operator_package.php(70): array_push(false, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->addcost()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 19:59:51 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 20:00:11 --> array_push(): Argument #1 ($array) must be of type array, bool given
+in APPPATH\Controllers\Operator_package.php on line 70.
+ 1 APPPATH\Controllers\Operator_package.php(70): array_push(false, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->addcost()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 20:00:11 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 20:00:16 --> array_push(): Argument #1 ($array) must be of type array, bool given
+in APPPATH\Controllers\Operator_package.php on line 70.
+ 1 APPPATH\Controllers\Operator_package.php(70): array_push(false, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->addcost()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 20:00:16 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 20:00:29 --> array_push(): Argument #1 ($array) must be of type array, bool given
+in APPPATH\Controllers\Operator_package.php on line 70.
+ 1 APPPATH\Controllers\Operator_package.php(70): array_push(false, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->addcost()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 20:00:29 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 20:00:56 --> array_push(): Argument #1 ($array) must be of type array, bool given
+in APPPATH\Controllers\Operator_package.php on line 70.
+ 1 APPPATH\Controllers\Operator_package.php(70): array_push(false, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->addcost()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 20:00:56 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 20:05:33 --> Undefined array key "isi"
+in APPPATH\Controllers\Operator_package.php on line 98.
+ 1 APPPATH\Controllers\Operator_package.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "isi"', 'APPPATH\\Controllers\\Operator_package.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 20:05:33 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 20:05:56 --> Undefined array key "isi"
+in APPPATH\Controllers\Operator_package.php on line 98.
+ 1 APPPATH\Controllers\Operator_package.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "isi"', 'APPPATH\\Controllers\\Operator_package.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 20:05:56 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 20:08:50 --> Undefined array key "judul"
+in APPPATH\Views\operator\package.php on line 133.
+ 1 APPPATH\Views\operator\package.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "judul"', 'APPPATH\\Views\\operator\\package.php', 133)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\package.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/package', [], true)
+ 5 APPPATH\Controllers\Operator_package.php(16): view('operator/package', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 20:08:50 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 20:10:56 --> Invalid file: operator/packagedetail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('operator/packagedetail.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/packagedetail', [], true)
+ 3 APPPATH\Controllers\Operator_package.php(138): view('operator/packagedetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->detail('4')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 20:10:56 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 20:12:45 --> Invalid file: operator/packagedetail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('operator/packagedetail.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/packagedetail', [], true)
+ 3 APPPATH\Controllers\Operator_package.php(138): view('operator/packagedetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->detail('4')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 20:12:45 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 20:17:12 --> Invalid file: operator/packagedetail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('operator/packagedetail.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/packagedetail', [], true)
+ 3 APPPATH\Controllers\Operator_package.php(138): view('operator/packagedetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->detail('4')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 20:17:12 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 20:35:19 --> Undefined variable $isi
+in APPPATH\Controllers\Operator_package.php on line 144.
+ 1 APPPATH\Controllers\Operator_package.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isi', 'APPPATH\\Controllers\\Operator_package.php', 144)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->change()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 20:35:19 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 20:36:05 --> Undefined array key "waktu"
+in APPPATH\Controllers\Operator_package.php on line 159.
+ 1 APPPATH\Controllers\Operator_package.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "waktu"', 'APPPATH\\Controllers\\Operator_package.php', 159)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->changeagenda()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 20:36:05 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 20:36:16 --> Undefined array key "waktu"
+in APPPATH\Controllers\Operator_package.php on line 159.
+ 1 APPPATH\Controllers\Operator_package.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "waktu"', 'APPPATH\\Controllers\\Operator_package.php', 159)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->changeagenda()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 20:36:16 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 20:37:02 --> Undefined array key "agenda"
+in APPPATH\Controllers\Operator_package.php on line 160.
+ 1 APPPATH\Controllers\Operator_package.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "agenda"', 'APPPATH\\Controllers\\Operator_package.php', 160)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->changeagenda()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 20:37:02 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 20:37:25 --> Undefined array key "agenda"
+in APPPATH\Controllers\Operator_package.php on line 160.
+ 1 APPPATH\Controllers\Operator_package.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "agenda"', 'APPPATH\\Controllers\\Operator_package.php', 160)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->changeagenda()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 20:37:25 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 20:37:43 --> Undefined array key "agenda"
+in APPPATH\Controllers\Operator_package.php on line 160.
+ 1 APPPATH\Controllers\Operator_package.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "agenda"', 'APPPATH\\Controllers\\Operator_package.php', 160)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->changeagenda()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 20:37:43 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 20:38:15 --> Undefined array key "agenda"
+in APPPATH\Controllers\Operator_package.php on line 156.
+ 1 APPPATH\Controllers\Operator_package.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "agenda"', 'APPPATH\\Controllers\\Operator_package.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->changeagenda()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 20:38:15 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 20:39:50 --> Undefined array key "harga"
+in APPPATH\Controllers\Operator_package.php on line 179.
+ 1 APPPATH\Controllers\Operator_package.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'APPPATH\\Controllers\\Operator_package.php', 179)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_package->changecost()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_package))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 20:39:50 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 20:42:47 --> Undefined array key "status"
+in APPPATH\Views\operator\order.php on line 62.
+ 1 APPPATH\Views\operator\order.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Views\\operator\\order.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\operator\\order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('operator/order', [], true)
+ 5 APPPATH\Controllers\Operator_order.php(16): view('operator/order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator_order->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator_order))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 20:42:47 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-09 21:14:40 --> Undefined variable $db
+in APPPATH\Views\customer\about.php on line 51.
+ 1 APPPATH\Views\customer\about.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Views\\customer\\about.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\customer\\about.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('customer/about', [], true)
+ 5 APPPATH\Controllers\Customer.php(27): view('customer/about', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Customer->showabout()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-09 21:14:40 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\dewibesani\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\dewibesani\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\dewibesani\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

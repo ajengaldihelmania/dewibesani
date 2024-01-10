@@ -1,0 +1,9 @@
+<script src="<?php echo base_url('assets/situs/js/vendor/jquery-1.12.0.min.js') ?>"></script>
+<script src="<?php echo base_url('assets/situs/js/popper.js') ?>"></script>
+<script src="<?php echo base_url('assets/situs/js/bootstrap.min.js') ?>"></script>
+<script src="<?php echo base_url('assets/situs/js/imagesloaded.pkgd.min.js') ?>"></script>
+<script src="<?php echo base_url('assets/situs/js/isotope.pkgd.min.js') ?>"></script>
+<script src="<?php echo base_url('assets/situs/js/ajax-mail.js') ?>"></script>
+<script src="<?php echo base_url('assets/situs/js/owl.carousel.min.js') ?>"></script>
+<script src="<?php echo base_url('assets/situs/js/plugins.js') ?>"></script>
+<script src="<?php echo base_url('assets/situs/js/main.js') ?>"></script>
